@@ -1,6 +1,9 @@
 {
   "$schema": "../../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/ngx-sdcore",
+  "dest": "../../dist/ngx-sdcore/media",
+  "assets": [
+    "dist/ngx-sdcore/assets/shared/*"
+  ],
   "lib": {
     "entryFile": "./public-api.ts"
   }
