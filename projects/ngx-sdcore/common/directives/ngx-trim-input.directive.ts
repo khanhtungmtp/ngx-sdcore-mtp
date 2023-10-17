@@ -16,7 +16,7 @@ const TRIM_VALUE_ACCESSOR = {
 
 @Directive({
   // eslint-disable-next-line @angular-eslint/directive-selector
-  selector: '[NgxTrimInput]',
+  selector: 'NgxTrimInput',
   providers: [TRIM_VALUE_ACCESSOR],
 })
 export class NgxTrimInputDirective implements ControlValueAccessor {
