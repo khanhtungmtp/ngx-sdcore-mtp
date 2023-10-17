@@ -12,8 +12,14 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
+      "ngx-sdcore/common": [
+        "projects/ngx-sdcore/common/index.ts"
+      ],
       "ngx-sdcore/snotify": [
         "projects/ngx-sdcore/snotify/index.ts"
+      ],
+      "ngx-sdcore/media": [
+        "projects/ngx-sdcore/media/index.ts"
       ]
     },
     "declaration": false,

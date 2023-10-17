@@ -9,22 +9,17 @@ import {
   TemplateRef,
   ViewChild,
 } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import {
   IMAGE_TYPES_CONST,
   MEDIA_TYPE_CONST,
-  VIDEO_TYPES_CONST,
-} from '../../constants/media-type.constant';
-import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-import { OperationResult } from '../../utilities/operation-result';
-import { MediaItem } from '../../models/media-item';
-import { FunctionUtility } from '../../utilities/function-utility';
+  VIDEO_TYPES_CONST, OperationResult, MediaItem, FunctionUtility, NgSnotifyService, MSG_CONST, TITLE_CONST
+} from 'ngx-sdcore/common';
 import {
   ImageCroppedEvent,
   ImageCropperModule,
   ImageTransform,
 } from 'ngx-image-cropper';
-import { NgSnotifyService } from '../../services/ng-snotify.service';
-import { MSG_CONST, TITLE_CONST } from '../../constants/notification.constant';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
