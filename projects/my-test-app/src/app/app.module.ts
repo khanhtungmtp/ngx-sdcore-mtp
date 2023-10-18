@@ -8,11 +8,14 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { NgxTrimInputDirective } from 'ngx-sdcore/common';
+import { PrintModule } from 'ngx-sdcore/print';
+import { PrintComponent } from './print/print.component';
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
-    NgxTrimInputDirective
-  ],
+    NgxTrimInputDirective,
+      PrintComponent
+   ],
   imports: [
     BrowserModule,
     NgxFileUploadComponent,
@@ -21,7 +24,7 @@ import { NgxTrimInputDirective } from 'ngx-sdcore/common';
     SnotifyModule,
     ModalModule.forRoot(),
     FormsModule, HttpClientModule,
-
+    PrintModule
   ],
   providers: [
     { provide: 'SnotifyToastConfig', useValue: ToastDefaults },

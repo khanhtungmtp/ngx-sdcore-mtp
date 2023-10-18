@@ -1,9 +1,11 @@
 {
   "name": "ngx-sdcore",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": "^16.2.0",
     "@angular/core": "^16.2.0",
+    "@angular/cdk": ">=16.0.0",
+    "rxjs": ">=7.0.0",
     "bootstrap": "4.6.2",
     "ngx-image-cropper": "^7.0.3",
     "ngx-spinner": "^16.0.2"

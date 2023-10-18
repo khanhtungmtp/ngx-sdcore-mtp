@@ -20,6 +20,12 @@
       ],
       "ngx-sdcore/media": [
         "projects/ngx-sdcore/media/index.ts"
+      ],
+      "ngx-sdcore/print": [
+        "projects/ngx-sdcore/print/index.ts"
+      ],
+      "ngx-sdcore/scrollbar": [
+        "projects/ngx-sdcore/scrollbar/index.ts"
       ]
     },
     "declaration": false,
